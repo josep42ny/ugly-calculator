@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ugly Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <main>
@@ -16,8 +17,8 @@
                 </div>
                 <div class="keypad flex-col">
                     <div class="operators flex-row">
-                        <div class="key one">Ac</div>
-                        <div class="key one">Del</div>
+                        <div id="clear" class="key one">Ac</div>
+                        <div id="delete" class="key one">Del</div>
                         <div class="key one">/</div>
                         <div class="key one">*</div>
                     </div>
@@ -38,7 +39,7 @@
                         <div class="side-buttons flex-col">
                             <div class="key one">-</div>
                             <div class="key one">+</div>
-                            <div class="key two">=</div>
+                            <div id="equal" class="key two">=</div>
                         </div>
                     </div>
                 </div>
